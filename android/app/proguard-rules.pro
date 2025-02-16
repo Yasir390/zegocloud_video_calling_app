@@ -1,1 +1,3 @@
 -keep class **.zego.** { *; }
+-keep class com.xiaomi.** { *; }
+-keep class im.zego.** { *; }

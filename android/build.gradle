@@ -3,8 +3,12 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+        maven { url "https://maven.aliyun.com/repository/public" } // Alternative repository
+        maven { url "https://developer.huawei.com/repo/" } // Huawei repository
+        maven { url "https://jitpack.io" } // JitPack for missing dependencies
     }
 }
+
 
 rootProject.buildDir = "../build"
 subprojects {
